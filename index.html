@@ -3,7 +3,8 @@
 
 	<head>
 		<title>forse africa:Leading textile in Africa</title>
-		<link rel="stylesheet" href="./assets/css/style.css">
+		<link rel="stylesheet" href="C:Users\Burg\Documents\forse\assets\css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	</head>
 		<header class="main-nav">
 			<nav class="nav-item">
@@ -11,7 +12,7 @@
 				<ul class="nav-item-list">
 					<li> <a href="#home" > Home </a> </li>
 					<li> <a href="#collections" > Collections </a> </li>
-					<li> <a href="#spotlight" > Spotlight </a> </li>
+					<li> <a href="#model" > Spotlight </a> </li>
 					<li> <a href="#feature" > Feature </a> </li>
 					<li> <a href="#contact" > Contact </a> </li>
 				</ul>
@@ -32,19 +33,23 @@
 			<div class="collection-list">
 				<div class="collection-list-item">
 					<div class="collection-list-item-img">
-						<img src="./assets/images/colle-1.jpeg" alt="Girl in a jacket" width="500" height="600">
+						<img id="sera" src="./assets/images/colle-1.jpeg" alt="Girl in a jacket" width="500" height="600">
 					</div>
 				
-					<div class="collection-list-item-content">
-						<h2>Clothes for Her </h2>
-						<p>Shop for classic or trendy pieces you can wear every day.</p>
-						<button type="submit" >Shop Now</button>
+					<div class="collection-content">
+						<div class="collection-list-item-content">
+							<h2>Clothes <br> for Her </h2>
+							<p>Shop for classic or trendy pieces <br> you can wear every day.</p>
+							<button type="submit" >Shop Now</button>
+						</div>
 					</div>
 				
-					<div class="collection-list-item-content">
-						<h2>Clothes for Him </h2>
-						<p>Look dashing while on the go with our casual wear items.</p>
-						<button type="submit" >Shop Now</button>
+					<div class="collection-content">
+						<div class="collection-list-item-content">
+							<h2>Clothes <br> for Him </h2>
+							<p>Look dashing while on the go <br> with our casual wear items.</p>
+							<button type="submit" >Shop Now</button>
+						</div>
 					</div>
 				
 					<div class="collection-list-item-img">
@@ -55,46 +60,64 @@
 						<img src="./assets/images/colle-3.jpeg" width="500" height="600" alt="sera photo" />
 					</div>
 				
-					<div class="collection-list-item-content">
-						<h2>Accessories </h2>
-						<p>Add shoes, bags, and more to complement your look.</p>
-						<button type="submit" >Shop Now</button>
+					<div class="collection-content">
+						<div class="collection-list-item-content">
+							<h2>Accessories </h2>
+							<p>Add shoes, bags, and more to complement <br> your look.</p>
+							<button type="submit" >Shop Now</button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section id="spotlight">
-			<div class="">
+		<section id="model">
+			<div class="container-model-holder">
+				<div class="model-title">
 					<h1>Look who's wearing Forsé !</h1>
-			</div>
-			<div class="models-content">
+				</div>
+				<div class="model-container">
 				
-				<div class="">
-					<img src="./assets/images/model-1.jpeg" width="500" height="600" alt="Ajay Ceaser">
-					<h4>Ajay Ceaser</h4>
-					<p>
-					( Commercial Model  )
-					</p>
-				</div>
-				<div class="">
-					<img src=./assets/images/model-2.jpg" width="500" height="600" alt="Sera ">
-					<h4>Forever Sera</h4>
-					<p>
-					(Founder & Creative Director at Forsé Africa )
-					</p>
-				</div>
-				<div class="">
-					<img src="https://image.canva.com/_CNyEORP5j8VvZY7b_I4EA%3D%3D/aBNDQneCrcrfZbEZoceBoQ%3D%3D.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAQYCGKMUH25PN7VSL%2F20220907%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220907T141836Z&amp;X-Amz-Expires=40780&amp;X-Amz-Signature=db4ef767c5aaf46deea2ab9b7ebff1b853799670ea1ea19c3237ae49180906b3&amp;X-Amz-SignedHeaders=host&amp;response-expires=Thu%2C%2008%20Sep%202022%2001%3A38%3A16%20GMT" width="500" height="600" alt="Silvia Aziza">
-					<h4>Sylia  Aziza</h4>
-					<p>
-					( Model & Stylist )
-					</p>
+					<div class="model-content-holder">
+						<div class="model-img">
+							<img src="./assets/images/model-1.jpeg"    alt="Ajay Ceaser">
+
+						</div>
+						<div class="model-name">
+							<h4>Ajay Ceaser</h4>
+							<p>
+								( Commercial Model )
+							</p>
+						</div>
+					</div>
+					<div class="model-content-holder">
+						<div class="model-img">
+							<img src="./assets/images/model-2.jpg"   alt="Sera ">
+						</div>
+						<div class="model-name">
+							<h4>Forever Sera</h4>
+							<p>
+								(Founder & Creative Director at Forsé Africa )
+							</p>
+						</div>
+					</div>
+					<div class="model-content-holder">
+						<div class="model-img">
+							<img src="./assets/images/model-3.jpg"   alt="Silvia Aziza">
+						</div>
+						<div class="model-name">
+							<h4>Sylvia  Aziza</h4>
+							<p>
+								( Model & Stylist )
+							</p>
+						</div>
+					</div>
+					
 				</div>
 			</div>
 		</section>
 		<section id="feature">
-			<div class="">
-				<div class="">
+			<div class="feature-container">
+				<div class="feature-text">
 					<h1>Why people love to shop at Forse' Africa</h1>
 					<ul>
 						<li>Order before 2 pm and get your purchase within the day.</li>
@@ -103,18 +126,41 @@
 						<li>We support contactless payment and cash on delivery. </li>
 					</ul>
 				</div>
-				<div class="">
-					<img src="./assets/images/last.jpeg" width="500" height="600" alt="Ajay Ceaser">
+				<div class="feature-img">
+					<img src="./assets/images/last.jpeg" alt="Ajay Ceaser">
 				</div>
 			</div>
 		</section>
 		<footer id="footer">
 			<div class="footer-content">
-				Instagram
-				Facebook
-				Twitter
-				+254 745 357979
-				forseafrica@gmail.com
+				<div class="icons">
+					<a href="https://m.facebook.com/profile.php?id=100063859093526&_rdr" class="contact-icons">
+						 <i class="fa-brands fa-facebook"></i>
+					 </a> 
+					<a href="#" class="contact-icons">
+						 <i class="fa-brands fa-twitter"></i>
+					 </a> 
+					<a href="#" class="contact-icons">
+						 <i class="fa-brands fa-linkedin"></i> 
+					</a> 
+					<a href="https://www.instagram.com/forseafrica/" class="contact-icons">
+						 <i class="fa-brands fa-instagram"></i>
+					 </a> 
+					<a href="#" class="contact-icons">
+						 <i class="fa-brands fa-pinterest"></i>
+					 </a> 
+					<a href="mailto:forseafrica@gmail.com" class="contact-icons">
+						 <i class="fa-solid fa-envelope"></i> 
+					</a> 
+					<a href="tel:254745357979" class="contact-icons">
+						 <i class="fa-solid fa-phone-flip"></i>
+					 </a> 
+				</div>
+				<div class="copy">
+					<span> 
+						&#169 <a href="https://www.modtechy.ke">Modtechy</a>
+					</span>
+				</div>
 			</div>
 		</footer>
 	<body>
