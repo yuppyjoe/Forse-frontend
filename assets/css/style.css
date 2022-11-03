@@ -63,6 +63,8 @@ body{
 	width:100%;
 	background-image: url("../images/landing.png");
 	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center center;
 	padding:0;
 	position:relative;
 	
