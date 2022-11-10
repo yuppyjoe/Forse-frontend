@@ -59,7 +59,7 @@ body{
 }
 
 .landing-image{
-	height:650px;
+	//height:650px;
 	width:100%;
 	background-image: url("../images/landing.png");
 	background-repeat:no-repeat;
@@ -68,6 +68,16 @@ body{
 	padding:0;
 	position:relative;
 	
+}
+
+.landing:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left :0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.49);
 }
 
 .landing-content{
