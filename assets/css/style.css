@@ -70,7 +70,7 @@ body{
 	
 }
 
-.landing:after{
+.landing-image:after{
 	content: "";
 	position: absolute;
 	top: 0;
